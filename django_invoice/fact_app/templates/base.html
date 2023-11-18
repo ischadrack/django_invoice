@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Invoice Management</title>
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.css' %}">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center alert alert-danger">INVOICE MANAGEMENT</I> </h2>
+        {% block content %} {% endblock content %}
+    </div>
+    <!-- scripts -->
+    <script src="{% static 'assets/js/bootstrap.css' %}"></script>
+    <script src="{% static 'assets/js/jquery.css' %}"></script>
+    <script src="{% static 'assets/js/popper.css' %}"></script>
+</body>
+</html>
